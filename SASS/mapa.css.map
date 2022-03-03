@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AASA,AAAA,EAAE,CACF;EACI,SAAS,EAVV,KAAK;CAWP",
+    "sources": [
+        "mapa.scss"
+    ],
+    "names": [],
+    "file": "mapa.css"
+}

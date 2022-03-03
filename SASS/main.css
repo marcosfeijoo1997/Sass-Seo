@@ -1,0 +1,19 @@
+.Titulos {
+  font-weight: bold;
+  font-size: 55px;
+  color: red;
+  text-align: center;
+}
+
+.Textoprimario {
+  font-size: 30px;
+  color: Black;
+  text-align: center;
+}
+
+.Subtitulosdecuadros {
+  font-size: 30px;
+  font-weight: bold;
+  color: Black;
+}
+/*# sourceMappingURL=main.css.map */
