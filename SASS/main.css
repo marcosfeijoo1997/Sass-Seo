@@ -34,9 +34,17 @@ img .imagen {
 }
 
 .index video {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 80%;
-  margin: 0 auto;
-  display: block;
 }
 
 .btn:hover {
@@ -47,5 +55,47 @@ img .imagen {
 .form-control:hover {
   -webkit-transform: scale(1.35);
           transform: scale(1.35);
+}
+
+.grupo-1 {
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: #0d2033;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+}
+
+.red-social img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+}
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+  .pie-pagina {
+    width: 100%;
+    background-color: #0d2033;
+  }
+  .grupo-1 {
+    display: inline-block;
+  }
 }
 /*# sourceMappingURL=main.css.map */
